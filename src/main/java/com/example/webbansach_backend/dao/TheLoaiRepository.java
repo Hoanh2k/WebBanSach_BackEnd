@@ -7,4 +7,5 @@ import org.springframework.stereotype.Repository;
 
 @RepositoryRestResource(path = "the-loai")
 public interface TheLoaiRepository extends JpaRepository<TheLoai, Integer> {
+
 }
